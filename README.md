@@ -5,3 +5,5 @@
 *DOMAIN*:UI/UX
 *DURATION*:6WEEKS
 *MENTER*:NEELA SANTOSH
+## OUTPUT
+![Image](https://github.com/user-attachments/assets/476f0258-b67d-4f78-b712-950d1363c937)
