@@ -1,0 +1,94 @@
+*{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+body{
+   
+    background-image:url("aitrans.jpg");
+    display:cover;
+    background-size: cover;
+}
+header{
+    display:flex;
+    width: auto;
+    height: auto;
+    font: center;
+    text-transform: inherit;
+    background: linear-gradient(green,red,blue);
+}
+.ree{
+    border-radius: 100%;
+    width: 50px;
+    height:50px;
+    
+}
+.home{
+    border-radius: 100%;
+    width: 100px;
+    height:auto;
+}
+.list{
+    border-radius: 100%;
+    width: 100px;
+    height: auto;
+}
+.login{
+    border-radius: 100%;
+    width: 100px;;
+    height: auto;
+}
+.sign{
+    border-radius: 100%;
+    width: 100px;
+    height: auto;
+}
+.help{
+    border-radius: 100%;
+    width: 100px;
+    height:auto;
+}
+
+footer{
+    background: linear-gradient(red,blue,green);
+}
+.ai{
+    border-radius: 15%;
+    width: 450px;
+    height: 320px;
+    float: left;
+}
+h1{
+    color: rgb(248, 10, 10);
+    font-size: 300%;
+}
+.para{
+    font-size: 180%;
+    color: #faf5ee;
+    font: left;
+}
+.ai1{
+    border-radius:15% ;
+    width:450px;
+    height:320px;
+    float:right;
+}
+.col{
+    color: brown;
+}
+.wed{
+    color: rgb(212, 255, 0);
+}
+.par{
+    
+    font-size: 180%;
+    color: #faf5ee;
+    font: left;
+    
+}
+.mr{
+    
+    border-radius: 100%;
+    width: 100px;
+    height:auto;    
+}

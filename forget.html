@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <mata name="viewport" content="width=device-width,initial-scale=1.0"></mata>
+        <link rel="stylesheet" href="forget id.css">
+        <link rel="icon" href="mr.png">
+        <title>
+            design
+        </title>
+        <script type="text/javascript">
+            function submit(){
+                var user=document.getElementById('new').value;
+                var forget=document.getElementById('forget').value;
+                if(user==""&&forget==""){
+                    alert("enter the details");
+                }
+                else if(user==forget){
+                    alert("your password is sucessfuly generated");
+                }
+                else{
+                    alert("your password is not match");
+                }
+            }
+        </script>
+    </head>
+        <body>
+            <div class="in"><input type="new password" placeholder="new password" id="new" name="new"></div>
+            <div class="in"><input type="conform password"placeholder="forget passwoard" id="forget" name="forget"></div>
+            <p1 class="btn"><button onclick="return submit()">submit</button></p1>
+        </body>
+    
+</html>

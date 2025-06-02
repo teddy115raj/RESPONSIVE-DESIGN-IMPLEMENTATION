@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <mata name="viewport" content="width=device-width,initial-scale=1.0"></mata>
+        <link rel="stylesheet" href="login id.css">
+        <link rel="icon" href="mr.png">
+        
+        <title>
+            design
+        </title>
+        <script type="text/javascript">
+            
+            function alairt()
+            {
+                var indid=document.getElementById('textvalues').value;
+                var inc = document.getElementById('textpasswoard').value;
+                if(inc=="rajesh" &&inc=="rajesh"){
+                    alert("your details are veryfying sucessfull");
+                    
+                }
+                else{
+                    alert("enter your details");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="al">
+            <h1> login</h1>
+            <div class="user" ><input type="user" id="textvalues"  placeholder="user id" name="textvalues" ></div>
+            <div class="password"><input type="password" placeholder="password" name="textpasswoard"  id="textpasswoard" ></div>
+            <p1 class="in"><button onclick="return alairt()" >login</button></p1><br>
+            <a href="forget.html" class="for">forget password</a><br>
+            <p class="pp"><button><a href="sign.html">sign in</a></button></p>
+        </div>
+    </body>
+</html>

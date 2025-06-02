@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <mata name="viewport" content="width=device-width,initial-scale=1.0"></mata>
+        <link rel="stylesheet" href="sign id.css">
+        <link rel="icon" href="mr.png">
+        <title>
+            design
+        </title>
+        <script type="text/javascript">
+            function login(){
+                var user=document.getElementById('user').value;
+                var pass=document.getElementById('password').value;
+                var con=document.getElementById('confom').value;
+                var rk=document.getElementById('re').value;
+                var we=document.getElementById('di').value;
+                if(user==""&& pass=="" && con==""){
+                    alert("enter the details");
+                }
+                else if(pass==confom){
+                    alert("password is not match");
+                }
+                else{
+                    alert("your user id and password generated is sucessfully");
+                }
+                bool(rk=true)
+                {
+
+                }
+            }
+            function online(){
+                document.getElementById('user').value="";
+                document.getElementById('password').value="";
+                document.getElementById('confom').value="";
+                document.getElementById('re').value="";
+                document.getElementById('di').value="";
+            }
+        </script>
+    </head>
+    <body>
+            <div class="er"><input type="user" placeholder="creat user id" id="user" name="user"></div>
+            <div class="dd"><input type="password" placeholder="creat a password" id="password" name="password"></div>
+            <div class="gg"><input type="confom password" placeholder="confom password" id="confom" name="confom"></div>
+            <div class="re"><input type="radio" id="re" name="re">male
+            <input type="radio" id="di" name="di">femaile</div>
+            <div class="btn"><button onclick="return login()">login</button>
+            <button id="et" name="et" onclick="return online()">clear</button></div>
+        
+    </body>
+</html>

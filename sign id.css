@@ -1,0 +1,45 @@
+*{
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("aitrans.jpg");
+    background-size: cover;
+    padding-left: 45%;
+    padding-top: 20%;
+    font-size:180%;
+    display: block;
+    border-radius: 5%;
+}
+button{
+    border-radius: 15%;
+    background-color: aqua;
+    color: aliceblue;
+    font-size: 180%;
+}
+input{
+    background-color: transparent;
+    font-size: 100%;
+}
+.btn{
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: large;
+}
+.re{
+    padding-top: 2%;
+    font-size: 100%;
+}
+.er{
+    padding-bottom: 2%;
+    font-size: 100%;
+}
+.dd{
+    padding-bottom: 2%;
+    font-size: 100%;
+}
+.gg{
+    font-size: 100%;
+
+}

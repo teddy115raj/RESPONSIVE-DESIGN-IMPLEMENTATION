@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+body{
+    background-image:url("aitrans.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 16%;
+    background-color: aquamarine;
+    font-size: 150%;
+    background-color:black;
+    color: blueviolet;
+}
+input{
+    border-radius: 5%;
+    font-size: 160%;
+    background-color: transparent;
+}
+h1{
+    font-size: 350%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+}
+.for{
+    color: rgb(93, 98, 223);
+    font-size: 150%;
+    padding-left: 6%;
+}
+.user{
+    padding-bottom: 2%;
+}
+.password{
+    padding-bottom: 2%;
+}
+.in{
+    padding-left: 9%;
+    padding-bottom: 6%;
+}
+.pp{
+    padding-left:8%;
+    padding-top: 2%;
+}
+.al{
+    padding-top: 20%;
+    padding-left: 40%;
+}
